@@ -9,7 +9,7 @@ function Table() {
   //on page render get all crawled data
   useEffect(() => {
     let dataArray = []
-    axios.get('/crawl')
+    axios.get('/api/crawl')
       .then(res => {
         //const query = res.data
         let index = 0

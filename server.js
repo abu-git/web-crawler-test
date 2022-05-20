@@ -20,7 +20,7 @@ mongoose.connect(db)
 .catch(err => console.log(err))
 
 
-app.use('/crawl', routes)
+app.use('/api/crawl', routes)
 
 app.listen(PORT, () => {
     console.log("Port runnning on: " + PORT)
