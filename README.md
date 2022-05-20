@@ -36,8 +36,7 @@ In this project directory, you can run:
 
 This will start the application and run the backend and frontend using concurrently
 
+## Author
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Samuel Abu
 
