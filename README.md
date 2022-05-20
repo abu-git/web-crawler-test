@@ -34,8 +34,6 @@ Now all necessary node_modules files have been installed for the project to run 
 
 Go back to the main directory from the frontend, run:
 
-### `cd ..`
-
   ```sh
   cd ..
   ```
