@@ -1,0 +1,26 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "Backend for a Simple Web Crawler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "concurrently \"npm run dev\" \"cd frontend && npm start\"",
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3",
+    "puppeteer": "^14.1.1"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.16"
+  }
+}
