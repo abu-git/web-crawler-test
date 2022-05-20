@@ -8,7 +8,9 @@ This backend is powered by Node.js, Express, Mongoose and Puppeteer.
 
 In this directory on your terminal, run:
 
-### `npm install`
+  ```sh
+  npm install 
+  ```
 
 This will generate the node_modules folder in this directory necessary for the backend to run smoothly.
 
@@ -16,11 +18,15 @@ This will generate the node_modules folder in this directory necessary for the b
 
 Navigate to the frontend directory, run:
 
-### `cd frontend`
+  ```sh
+  cd frontend
+  ```
 
 Inside the frontend directory, run: 
 
-### `npm install`
+  ```sh
+  npm install 
+  ```
 
 Now all necessary node_modules files have been installed for the project to run on your local machine.
 
@@ -30,9 +36,15 @@ Go back to the main directory from the frontend, run:
 
 ### `cd ..`
 
+  ```sh
+  cd ..
+  ```
+
 In this project directory, you can run:
 
-### `npm start`
+  ```sh
+  npm start
+  ```
 
 This will start the application and run the backend and frontend using concurrently
 

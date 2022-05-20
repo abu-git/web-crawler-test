@@ -6,7 +6,9 @@ This frontend is powered by React, TailwindCSS and Axios
 
 In this directory on your terminal, run:
 
-### `npm install`
+  ```sh
+  npm install 
+  ```
 
 This will generate the node_modules folder in this directory that will allow you to run the application.
 
@@ -14,7 +16,9 @@ This will generate the node_modules folder in this directory that will allow you
 
 In this project directory, you can run:
 
-### `npm start`
+  ```sh
+  npm start
+  ```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
