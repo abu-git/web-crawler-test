@@ -22,5 +22,8 @@
   "devDependencies": {
     "lodash": "^4.17.21",
     "nodemon": "^2.0.16"
+  },
+  "engines": {
+    "node": "18.2.0"
   }
 }
