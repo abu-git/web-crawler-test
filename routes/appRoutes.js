@@ -107,6 +107,7 @@ router.post('/', (req, res) => {
 //get request to populate crawled findings
 router.get('/', async (req, res) => {
     all = await Crawled.find()
+        .catch(err => console.log(err))
     //send to frontend
     res.json(all)
 })
